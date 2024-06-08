@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap1.css">
+    <title>Document</title>
+</head>
+<body>
+  
+<div class="login w-50 mx-auto text-center my-5 p-5">
+<h2 class="py-2">Smart Login System</h2>
+<input id="Name" type="text" class=" message  form-control rounded-2 my-3" placeholder="Enter your name">
+<div class=" d-none alert alert-danger mt-1 p-0">
+    <p class="m-0 p-1 ">Name is invalid at least three characters</p>
+  </div>
+<input id="Email" type="email" class="message  form-control rounded-2 my-3" placeholder="Enter your email">
+<div class="d-none alert alert-danger mt-1 p-0">
+    <p class="m-0 p-1 ">Email is invalid </p>
+  </div>
+<input id="Password" type="password" class="message  form-control  rounded-2" placeholder="Enter your password">
+<div class=" d-none alert alert-danger mt-1 p-0">
+    <p class="m-0 p-1 "> Minimum eight characters, at least one uppercase letter, one lowercase letter and one number</p>
+  </div>
+<button  class="btn btn-lg form-control rounded-2 my-3 ">Sign Up</button>
+
+<div class=" messagefail d-none alert alert-danger mt-1 p-0">
+  <p class="m-0 p-1 "> registration is invalid </p>
+</div>
+<div class=" emailmessage d-none alert alert-danger mt-1 p-0">
+  <p class="m-0 p-1 "> email is exist </p>
+</div>
+<div class=" messagesuccess d-none alert alert-success mt-1 p-0">
+  <p class="m-0 p-1 ">successfull </p>
+</div>
+
+<p class="text-light">You have an account? <a href="index.html">Sign in</a></p>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>    
+</body>
+</html>

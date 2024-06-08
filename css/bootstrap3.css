@@ -1,0 +1,38 @@
+:root{
+    --main_bg: #24353f;
+    --bs-border-width:2px;
+    --bs-border-color:#ced4da;
+    --bs-body-bg:#24353f;
+    --bs-body-color:#ced4da;
+    --bs-btn-hover-bg:rgb(214, 214, 78);
+
+  }
+
+  a{
+    color:white;
+    text-decoration: none;
+}
+  .navigation{
+    background-color: var(--main_bg);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+   color:white;
+  }
+
+
+
+  .btn{
+    color:var(  --bs-body-color);
+    --bs-btn-border-color: rgb(214, 214, 78);
+
+  }
+
+
+.btn:hover{
+  background-color: var(--bs-btn-hover-bg);
+ }
+
+
+ .login{
+    background-color: var(--main_bg);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}

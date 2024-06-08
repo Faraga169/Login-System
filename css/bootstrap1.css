@@ -1,0 +1,62 @@
+
+:root{
+  --main_bg: #24353f;
+  --bs-border-width:2px;
+  --bs-border-color:#ced4da;
+  --bs-body-bg:#24353f;
+}
+.form-outline i {
+    position: absolute;
+    top: 50%;
+    left:0%;
+    color:aliceblue;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+a{
+    color:white;
+    text-decoration: none;
+}
+body{
+    background-color: var(--main_bg);
+}
+
+
+.login{
+    background-color: var(--main_bg);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login h2{
+    color:RGB(23, 162, 184);
+}
+
+.form-control{
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    /* background-color: var(--bs-body-bg); */
+    color:white;
+   
+}
+input::placeholder {
+    color: #ced4da!important;
+}
+.form-control:focus{
+  border-color:#80bdff;
+  box-shadow: none;
+  color:white;
+}
+.login button{
+    color:RGB(23, 162, 184);
+    border:2px solid RGB(23, 162, 184);
+    transition: all 1s;
+}
+
+.login button:hover{
+    background-color:RGB(23, 162, 184); 
+    color:white;
+}
+
+.login p a:hover{
+    text-decoration: underline;
+    color:white;
+}
